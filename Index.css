@@ -1,0 +1,86 @@
+#container {
+    max-width: 575px;
+    background-color: #1B244A;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#countdown {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+#point-system {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams {
+    width: 155px;
+    margin-top: 68px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    margin-block-start: 0em;
+    margin-block-end: 21px;
+}
+
+.score-box {
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-number {
+    color: #F94F6D;
+    font-size: 5em;
+    padding-bottom: 5px;
+}
+
+.button{
+    background-color: rgb(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#new-game {
+    display: block;
+    margin: 26px auto;
+    background-color: rgb(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    width: 434px;
+    font-size: 1.3em;
+}
+
+#test {
+    display: block;
+    margin: 26px auto;
+    background-color: rgb(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    width: 434px;
+    font-size: 1.3em;
+}

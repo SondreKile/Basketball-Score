@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div id="container" onclick="leader()">
+
+        <div id="point-system">
+            <div id="team-1" class="teams">
+                <p class="title">HOME</p>
+                <div class="score-box">
+                    <p class="score-number" id="h-num">0</p>
+                </div>
+                <div class="buttons">
+                    <button class="one-point button" onclick="hp1()">+1</button>
+                    <button class="two-point button" onclick="hp2()">+2</button>
+                    <button class="three-point button" onclick="hp3()">+3</button>
+                </div>
+            </div>
+
+            <div id="team-2" class="teams">
+                <p class="title">GUEST</p>
+                <div class="score-box">
+                    <p class="score-number" id="g-num">0</p>
+                </div>
+                <div class="buttons">
+                    <button class="one-point button" onclick="gp1()">+1</button>
+                    <button class="two-point button" onclick="gp2()">+2</button>
+                    <button class="three-point button" onclick="gp3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <button id="new-game" onclick="newGame()">NEW GAME</button>
+    
+        <button id="test" onclick="test()">TEST</button>
+
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
